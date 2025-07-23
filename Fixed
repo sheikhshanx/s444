@@ -1,0 +1,15 @@
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
+"devDependencies": {
+  "vite": "^5.0.0"
+}
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}
+git add .
+git commit -m "Fix vite build config"
+git push origin main
